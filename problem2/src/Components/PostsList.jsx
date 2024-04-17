@@ -13,7 +13,6 @@ const PostsList = () => {
 
     return (
         <div>
-            <h1>Posts</h1>
             <ul>
                 {data.map(post => (
                     <li key={post.id}>
